@@ -1,9 +1,9 @@
 class Student {
   int id;
   String name;
-  String phoneNumber;
+//  String phoneNumber;
 
-  Student(this.id, this.name, this.phoneNumber);
+  Student(this.id, this.name);
 
   Map<String, dynamic> toMap() {
     var map = <String, dynamic>{
